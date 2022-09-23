@@ -1,0 +1,54 @@
+:root {
+    --bg-grey: #f5f6fa;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Utilities */
+
+.text-center {
+    text-align: center;
+}
+
+.title {
+    margin: 15px 0;
+}
+
+.description {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.svg_map {
+    background-color: var(--bg-grey);
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #fff;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.legend {
+    background-color: var(--bg-grey);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
